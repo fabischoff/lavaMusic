@@ -3,15 +3,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>Lara Music</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <!--CSS personalizado-->
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/png" href="img/favicon-laramusic.png">
+
+
+
 
         <!--BootStrap-->
         <!-- Latest compiled and minified CSS -->
@@ -24,11 +26,14 @@
 
         <link rel="stylesheet" href="css/normalize.css"> 
         <link rel="stylesheet" href="css/main.css">
-        
+
+        <!--CSS personalizado-->
+        <link rel="stylesheet" href="css/laraMusic.css">
+
         <!--Font Awesome-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-       
-        
+
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -37,10 +42,113 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <h1>Meu template</h1>
-        <!-- Add your site or application content here -->
-        
 
+        <header class="header">
+            <div class="container">
+                <div class="col-md-3">
+                    <img src="img/laramusic.png" alt="LaraMusic" title="LaraMusic" class="img-logo">
+                </div>
+
+                <div class="col-md-7">
+                    <form class="form-search">
+                        <input type="text" name="pesquisar" placeholder="Pesquisar Música" >
+                        <button class="btn-search"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+
+                <div class="col-md-2   ">
+                    <a href="" class="login"> Entrar </a>
+                </div>
+            </div>
+        </header>
+
+        <!--Fim header-->
+        <hr class="hr clear">
+
+
+        <section class="albuns ">
+            <div class="container">
+                <h1 class="title">Últimos Albúns:</h1>
+                <div class="list-albuns col-md-12">
+                    <article class="col-md-3 albun">
+                        <a href="">
+                            <img src="img/sitekit-laramusic.png" alt="Nome do Album" title="Nome do Album" class="img-albun ">
+                            <h1 class="title-album">Nome do Album</h1>
+                        </a>
+                    </article>
+                    <article class="col-md-3 albun">
+                        <a href="">
+                            <img src="img/sitekit-laramusic.png" alt="Nome do Album" title="Nome do Album" class="img-albun ">
+                            <h1 class="title-album">Nome do Album</h1>
+                        </a>
+                    </article>
+                    <article class="col-md-3 albun">
+                        <a href="">
+                            <img src="img/sitekit-laramusic.png" alt="Nome do Album" title="Nome do Album" class="img-albun ">
+                            <h1 class="title-album">Nome do Album</h1>
+                        </a>
+                    </article>
+                    <article class="col-md-3 albun">
+                        <a href="">
+                            <img src="img/sitekit-laramusic.png" alt="Nome do Album" title="Nome do Album" class="img-albun ">
+                            <h1 class="title-album">Nome do Album</h1>
+                        </a>
+                    </article>
+                </div>
+                <!--Fim div list-albuns-->
+            </div>
+        </section>
+        <!--Fim section albus-->
+        
+        <hr class="hr clear">
+        
+        <section class="estilos">
+            <div class="container">
+                <h1 class="title">Estilos:</h1>
+                
+                <div class="estilos-mu col-md-12">
+                </div>
+                    <div class="col-md-3">
+                        <a href="" class="estilo"> Eletrônica </a>
+                        <a href="" class="estilo"> Rock </a>
+                        <a href="" class="estilo"> Rap </a>
+                        <a href="" class="estilo"> Pop </a>
+                        <a href="" class="estilo"> Funk </a>
+                        <a href="" class="estilo"> Sertanejo </a> 
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="estilo"> Eletrônica </a>
+                        <a href="" class="estilo"> Rock </a>
+                        <a href="" class="estilo"> Rap </a>
+                        <a href="" class="estilo"> Pop </a>
+                        <a href="" class="estilo"> Funk </a>
+                        <a href="" class="estilo"> Sertanejo </a> 
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="estilo"> Eletrônica </a>
+                        <a href="" class="estilo"> Rock </a>
+                        <a href="" class="estilo"> Rap </a>
+                        <a href="" class="estilo"> Pop </a>
+                        <a href="" class="estilo"> Funk </a>
+                        <a href="" class="estilo"> Sertanejo </a> 
+                    </div>
+                    <div class="col-md-3">
+                        <a href="" class="estilo"> Eletrônica </a>
+                        <a href="" class="estilo"> Rock </a>
+                        <a href="" class="estilo"> Rap </a>
+                        <a href="" class="estilo"> Pop </a>
+                        <a href="" class="estilo"> Funk </a>
+                        <a href="" class="estilo"> Sertanejo </a> 
+                    </div>
+                <!--Fim estilos-mu-->
+                
+            </div>
+            <!--Fim conteiner-->
+        </section>
+
+
+
+        <!-- Add your site or application content here -->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
