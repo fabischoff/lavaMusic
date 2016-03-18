@@ -29,9 +29,10 @@ a:hover{text-decoration: none}
 
 section.albun{}
 .title{font-size: 25px; color: #FB503B; font-family: OpenSans; }
-.title-album{font-size: 20px; margin:5px 0; color: #FB503B; text-align: center}
+.title-album{font-size: 25px; margin:5px 0; color: #FB503B;}
 .list-albuns{}
-.img-albun{max-width:100%}
+.img-albun{}
+
 
 
 /*Section Estilos*/
@@ -39,3 +40,11 @@ section.albun{}
 
 a.estilo{color:#FB503B; margin: 5px 6px; font-weight: bold; font-size: 16px; width: 100%; float: left}
 a.estilo:hover{color: #000}
+
+
+/*Footer*/
+
+.footer{background-color: #555; padding: 20px; margin-top: 50px}
+.text-footer{color:#FFF; font-weight: bold}
+.social a{color:#FFF; font-size: 20px; margin: 6px}
+ 

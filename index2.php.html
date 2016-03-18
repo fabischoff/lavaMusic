@@ -67,21 +67,7 @@
         <hr class="hr clear">
         
         <!--Content Dinâmico-->
-        <?php      
-        
-            if(isset($_GET['prm'])){
-                if(file_exists("pags/{$_GET['prm']}.php")) {
-                    include "pags/{$_GET['prm']}.php";
-                    
-                }  
-                else{
-                    include './pags/404.php';
-                }
-            }
-            else{
-                include_once './pags/home.php';;
-                
-            }
+        <?if ()
         
         ?>
 
