@@ -25,13 +25,17 @@ a:hover{text-decoration: none}
 .form-search button.btn-search{ background-color: #FC503B; border: 0px; color: #FFF; float:right; position: absolute; top:10px; right: 15px; z-index: 1;padding: 11px 30px}
 
 
-/*Section albuns*/
+/*Section albums*/
 
-section.albun{}
+section.album{}
 .title{font-size: 25px; color: #FB503B; font-family: OpenSans; }
-.title-album{font-size: 25px; margin:5px 0; color: #FB503B;}
+.title-album{font-size: 25px; margin:5px 0; color: #FB503B; text-align: center  }
 .list-albuns{}
-.img-albun{}
+.img-album{width: 100%;}
+.image-album{ }
+.hover.img-album{z-index: 1; position: absolute; width: 100%; float: left; top: 0 }
+.hover.img-album:hover{}
+
 
 
 
